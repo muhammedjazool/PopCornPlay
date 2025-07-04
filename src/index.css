@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-
-
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
@@ -82,7 +80,7 @@
   }
 
   .search {
-    @apply w-full bg-light-100/5 px-4 py-3 rounded-lg mt-10 max-w-3xl mx-auto;
+    @apply w-full bg-light-100/5 px-4 py-3 rounded-lg mt-10 max-w-4xl mx-auto sticky top-0 z-50 bg-light-100 shadow;
 
     & div {
       @apply relative flex items-center;
